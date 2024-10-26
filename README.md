@@ -33,7 +33,7 @@ This implementation supports the following shallow graph embedding methods:
 	1.	Locally Linear Embedding (LLE): A manifold learning technique that preserves local relationships by reconstructing each point as a linear combination of its neighbors. In the graph context, it aims to find embeddings that respect the local structure of the graph.
 	2.	Laplacian Eigenmaps: A spectral embedding method that uses the graph Laplacian to compute low-dimensional representations. It seeks to preserve the proximity between neighboring nodes in the graph, making it ideal for capturing local structure.
 	3.	GraRep: A matrix factorization-based method that captures higher-order proximities by factorizing the k-step transition probability matrix of the graph. It is designed to learn global structural representations.
-        4.	DeepWalk: A random walk-based embedding method that learns node representations by treating truncated random walks as sentences and applying the Skip-Gram model. DeepWalk captures both local and global structure by leveraging random walks to explore different regions of the graph.
+    4.	DeepWalk: A random walk-based embedding method that learns node representations by treating truncated random walks as sentences and applying the Skip-Gram model. DeepWalk captures both local and global structure by leveraging random walks to explore different regions of the graph.
 
 Each method generates low-dimensional embeddings were used for node classification tasks.
 
